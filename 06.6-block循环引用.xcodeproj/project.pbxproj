@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C1EF30623EBE3D200B528FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF30523EBE3D200B528FD /* main.m */; };
+		9C1EF30E23EBE3DC00B528FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF30D23EBE3DC00B528FD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		9C1EF30223EBE3D200B528FD /* 06.6-block循环引用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06.6-block循环引用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1EF30523EBE3D200B528FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C1EF30C23EBE3DC00B528FD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C1EF30D23EBE3DC00B528FD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C9AB6E223EBE6650024FA80 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				9C1EF30523EBE3D200B528FD /* main.m */,
+				9C9AB6E223EBE6650024FA80 /* main.cpp */,
+				9C1EF30C23EBE3DC00B528FD /* Person.h */,
+				9C1EF30D23EBE3DC00B528FD /* Person.m */,
 			);
 			path = "06.6-block循环引用";
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1EF30E23EBE3DC00B528FD /* Person.m in Sources */,
 				9C1EF30623EBE3D200B528FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
